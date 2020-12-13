@@ -1,0 +1,105 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    padding: 150px 35%;
+}
+
+/* ---------- Top */
+.progress {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.circle {
+    stroke-dasharray: 471 0;
+}
+
+.progress-info {
+    height: 160px;
+    width: 350px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.progress-title {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.progress-deadline {
+    font-size: 20px;
+}
+/* ----------------*/
+
+/*--------- Element */
+
+.element {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-bottom-color: #e0e0e0;
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+
+.element:hover {
+    transform: scale(1.05);
+    background: #fcfcfc;
+    box-shadow: 0 11px 22px -11px rgba(33,33,33,.2), 0 -11px 22px -11px rgba(33,33,33,.2);
+    border-bottom-color: transparent;
+}
+
+.element-text {
+    width: 75%;
+    margin-left: 20px;
+    display: block;
+}
+
+
+/*          Toolbar --------------*/
+
+.element-toolbar {
+    display: flex;
+    position: relative;
+    left: -25px;
+    width: 45px;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.5s;
+}
+
+.element-toolbar:hover {
+    transform: translateX(25px);
+}
+
+.toolbar-list {
+    height: 100%;
+    width: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toolbar-list span {
+    transition: transform .2s;
+}
+
+.toolbar-list span:hover {
+    transform: scale(0.8);
+}
+
+
+/*           ---------------*/
+
+
+/* -----------------*/
